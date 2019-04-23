@@ -1,0 +1,479 @@
+/* 导航布局 */
+
+header{
+    height: 83px;
+}
+#logo {
+    width: 141px;
+    height: 52px;
+    float: left;
+    margin-top: 13px;
+    margin-left: 143px;
+}
+
+#logo a{
+    width: 141px;
+    height: 52px;
+    background: url(../img/logo.jpg) no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+#pipe {
+    height: 39px;
+    border-right: 1px solid #dddddd;
+    display: block;float: left;
+    margin: 24px 24px auto 17px ;
+}
+
+#slogan {
+    width: 215px;
+    height: 80px;
+    display: block;
+    float: left;
+    background: url(../img/slogan.jpg)
+}
+
+nav {
+    float: left;
+    margin-left: 95px;
+}
+
+nav ul {
+    width: 660px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+nav ul li{
+    line-height: 83px;
+}
+
+
+/* 服务板块布局 */
+#services{
+    margin-top: 70px;
+}
+
+#business p{
+    margin-top: 20px;
+}
+
+#services ul {
+    margin-top: 71px;
+    width: 1140px;
+    margin: 0 auto 58px auto;
+}
+
+#services ul li{
+    display: block;
+    float: left;
+    width: 351px;
+    height: 218px;
+    margin-right: 43.5px;
+    margin-bottom: 19px;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+
+#services ul li em {
+    display: block;
+    width: 228px;
+    height: 71px;
+    margin-top: 73px;
+    margin-left: 49px;
+    text-align: center;
+    line-height: 71px;
+    font-size: 22px;
+    
+}
+
+#services ul li:nth-child(1) {
+    background: url(../img/business1.jpg) no-repeat;
+}
+
+#services ul li:nth-child(2) {
+    background: url(../img/business2.jpg) no-repeat;
+}
+
+#services ul li:nth-child(3) {
+    background: url(../img/business3.jpg) no-repeat;
+    margin-right: 0;
+}
+#services ul li:nth-child(4) {
+    background: url(../img/business4.jpg) no-repeat;
+}
+#services ul li:nth-child(5) {
+    background: url(../img/business5.jpg) no-repeat;
+}
+#services ul li:nth-child(6) {
+    background: url(../img/businsee6.jpg) no-repeat;
+    margin-right: 0;
+}
+
+#services ul li:nth-child(1) em{
+    background-color: rgba(21, 156, 221, 0.9)
+}
+
+#services ul li:nth-child(2) em{
+    background-color: rgba(25, 106, 224, 0.9)
+}
+#services ul li:nth-child(3) em{
+    background-color: rgba(252, 206, 24, 0.9)
+}
+#services ul li:nth-child(4) em{
+    background-color: rgba(154, 200, 52, 0.9)
+}
+#services ul li:nth-child(5) em{
+    background-color: rgba(227, 23, 136, 0.9)
+}
+#services ul li:nth-child(6) em{
+    background-color: rgba(243, 41, 41, 0.9)
+}
+
+#services ul li:nth-child(1) a {
+    background-color: rgba(21, 156, 221, 1)
+}
+#services ul li:nth-child(2) a {
+    background-color: rgba(25, 106, 224, 1)
+}
+#services ul li:nth-child(3) a {
+    background-color: rgba(252, 206, 24, 1)
+}
+#services ul li:nth-child(4) a {
+    background-color: rgba(154, 200, 52, 1)
+}
+#services ul li:nth-child(5) a {
+    background-color: rgba(227, 23, 136, 1)
+}
+#services ul li:nth-child(6) a {
+    background-color: rgba(243, 41, 41, 1)
+}
+
+
+.dropEffect {
+    width: 351px;
+    height: 218px;
+    position: absolute;
+    top: -218px;
+    left: 0;
+    
+}
+
+.dropEffect span {
+    display: block;
+    margin: 50px auto 0 auto;   
+    color: #fff;
+}
+
+.dropEffect b {
+    display: block;
+    margin: 80px auto 0 auto;
+    color: #fff;
+}
+
+#services ul li:hover .dropEffect{
+    transform: translate(0px,218px);
+    -ms-transform: translate(0px,218px);
+}
+
+
+/* 客户板块布局 */
+
+#clients {
+    background: #ebeff2;
+}
+
+.clientLogos ul{
+    width: 1140px;
+    padding-bottom: 74px;
+    padding-top: 55px;
+    margin: 0 auto;
+    /* background: #ebeff2; */
+}
+
+.clientLogos ul li{
+    float: left;
+    height: 166px;
+    border: 1px solid #ebeff2;
+    -webkit-filter: grayscale(100%);    /* webkit内核支持程度较好 */
+    -moz-filter: grayscale(100%);    /* 其他内核现在并不支持，为了将来兼容性书写 */
+     -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all 0.5s ease-out;
+} 
+
+.clientLogos ul li:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%); 
+    -ms-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+
+/* 作品展示区 布局 */
+
+.showcase ul{
+    width: 1140px;
+    margin:54px auto 74px auto;
+}
+
+.showcase ul li{
+    float: left;
+    margin: 1px;
+    height: 211px;
+    position: relative;
+    overflow: hidden;
+}
+.showcase ul li a{
+    display: block;
+    width: 283px;
+    height: 211px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(21, 156, 221, 0);
+    transition: all 0.2s ease-out;
+}
+.showcase ul li:hover a {
+    background: rgba(21, 156, 221, 0.8);
+}
+
+.showcase ul li a span{
+    color: #fff;
+    display: block;
+    margin: 160px auto 0 auto;
+    opacity: 0;
+}
+
+.showcase ul li:hover a span{
+    opacity: 1;
+}
+
+.showcase ul li a img:first-child{
+    position: absolute;
+    top: 96px;
+    left: 284px;
+    transition: all 0.2s ease-out;
+}
+.showcase ul li a img:last-child{
+    position: absolute;
+    top: 78px;
+    left: -70px;
+    transition: all 0.1s ease-out;
+}
+
+
+.showcase ul li:hover a img:first-child{
+    position: absolute;
+    top: 96px;
+    left: 126px;
+}
+.showcase ul li:hover a img:last-child{
+    position: absolute;
+    top: 78px;
+    left: 108px;
+}
+
+
+/* 新闻板块布局*/
+
+
+#news {
+    background: url(../img/background.jpg) no-repeat;
+  
+}
+#news ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 74px;
+
+}
+
+#news ul li{
+    float: left;
+    width: 550px;
+    height: 166px;
+    background: #fff;
+    margin: 0 20px 14px 0;
+}
+
+#news ul li img {
+    display: block;
+    float: left;
+}
+
+
+#news ul li div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    padding-left: 20px;
+    margin-right: 30px;
+    
+}
+
+#news ul li div a{
+    font-size: 16px;
+    align-self:flex-start;
+}
+
+#news ul li div p{
+    text-align: left;
+}
+
+.dimmed {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 联系方式布局 */
+
+#contact{
+    background: #2e2e2e;
+}
+#contact>div{
+    margin-top: 35px;
+}
+
+#contactLeft{
+    float: left;
+    border-right: 1px solid #505050;
+    text-align: left;
+    margin-left: 149px;
+    margin-bottom: 92px; 
+    padding-right: 138px;;
+}
+#contactLeft>p{
+    line-height: 30px;
+}
+
+#contactLeft>p:nth-of-type(1){
+    margin-top: 35px;
+}
+
+#contactRight{
+    float: left;
+    
+}
+
+button{
+    margin-top: 38px;
+    width: 205px;
+    height: 59px; 
+    background: #414141;
+    border-radius: 4px;
+    border: none;
+    margin-right: 17px;
+    font-size: 38px;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+button>i{
+    display: block;
+    float: left;
+    line-height: 59px;
+    margin-left: 10px;
+}
+button>p{
+    width: 100px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+button>p span:first-child{
+    display: block;
+    float: left;
+    font-size: 16px;
+}
+
+button>p span:last-child {
+    display: block;
+}
+
+#qrCode{
+    margin-top: 40px;
+    width: 180px;
+    height: 85px;
+    background: url(../img/QRcode.jpg) no-repeat;
+    text-indent:100px ;
+}
+
+select {
+    width: 271px;
+    height: 27px;
+    line-height: 27px;
+    background: #828282;
+    border: none;
+}
+
+input {
+    width: 271px;
+    height: 27px;
+    line-height: 27px;
+    background: #828282;
+    border: none;
+}
+
+#apply{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#apply>p{
+    margin-bottom: 14px;
+}
+
+
+#apply p:nth-child(6){
+    margin-top: -5px;
+    line-height: 130px;
+    margin-bottom: 23px;
+}
+
+textarea{
+    display:block;
+    float: right;
+    margin-right: 42px;
+    width: 462px;
+    height: 130px;
+    background: #828282;
+    border: none;
+    resize: none;
+}
+
+#submit {
+    width: 136px;
+    height: 36px;
+    border-radius: 3px;
+    background: #828282;
+    display: block;
+    margin-left: 55px;
+    float: left;
+    cursor: pointer;
+}
+
+#reset {
+    width: 72px;
+    height: 36px;
+    border-radius: 3px;
+    background: #828282;
+    display: block;
+    float: left;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+#contactRight h4{
+    text-align: left;
+    margin-left: 44px;
+}

@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/* 导航栏布局 */
+nav {
+    min-width: 1170px;
+}
+
+#navInner{
+    width: 1170px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#logo {
+    overflow: hidden;
+    float: left;
+}
+
+#logo a{
+    display: block;
+    float: left;
+    width: 54px;
+    height: 54px;
+    background: url(../img/logo.jpg) no-repeat;
+    text-indent: -9999px;
+    margin-top: 23px;
+}
+
+#navMenu {
+    float: left;
+    margin-left: 40px;
+}
+
+#navMenu li {
+    float: left;
+}
+
+#navMenu li a {
+    font-size: 14px;
+    line-height: 100px;
+    padding-right: 39px;
+}
+
+#device {
+    float: right;
+    height: 100px;
+}
+
+#device a {
+    color:#000;
+    line-height: 100px;
+}
+
+#device a:hover{
+    color:#53cac3;
+}
+
+#device a img {
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 13px;
+    margin-left: 19px;
+}
+
+#device span{
+    display: inline-block;
+    height: 18px;
+    width: 1px;
+    background: #e5e5e5;
+    vertical-align: middle;
+    margin-left: 19px;
+}
+
+
+#reg {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height:38px;
+    background: #fdf8e3;
+    border-top: 1px solid #ffe7b8;
+    border-bottom: 1px solid #ffe7b8;
+    line-height: 38px;
+    text-align: center;
+}
+
+#reg a{color: #b05a2e;}
+
+
+/* 设置页面主体背景色 */
+.main{
+    background: #f3f3f3;
+}
+
+
+/* footer布局 */
+
+footer{
+    background: #000;
+    min-width: 1170px;
+}
+
+#footerInner{
+    width: 1170px;
+    height: 233px;
+    background: #000;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+#footerInner ul {
+    display: inline-block;
+    overflow: hidden;
+    margin: 64px auto 38px auto;
+}
+
+#footerInner ul li {
+    float: left;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+#footerInner ul li a{
+    color: white;
+    font-size: 18px;
+}
+
+#footerInner p {
+    margin-bottom: 13px;
+}

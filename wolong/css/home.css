@@ -1,0 +1,324 @@
+/* 初始化网页 */
+*{
+    margin: 0;
+    padding: 0;
+  
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+a,a:visited{color:#f1f1f1}
+body,html{
+    font:12px/2em "微软雅黑",Arial ;
+} 
+h1,h2,h3,h4,b,strong {
+    font-weight: normal;
+    font-size: 100%;
+}
+/* 设立整体框架 */
+#header {
+    height: 100px;
+    width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#nav {
+    height: 59px;
+    width: 1000px;
+    margin: 0 auto;
+    background: rgb(50, 50 , 50);
+    text-align: center;
+}
+
+#banner {
+    height: 463px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+   
+}
+
+.news {
+    height: 240px;
+    width: 1000px;
+    margin: 0 auto;
+    
+   
+}
+
+.market {
+    height: 305px;
+    width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.f_nav {
+    height: 250px;
+    width: 1000px;
+    margin: 0 auto;
+    background: rgb(229, 229, 229)
+}
+
+.copyright {
+    height: 80px;
+    width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+
+/* 布置header */
+.logo {
+    width: 280px;
+    height: 100px;
+    float: left;
+}
+.search {
+    height: 225px;
+    height: 26px;
+    border: solid 1px #e5e5e5;
+    margin-top:39px;
+    margin-right:20px;
+    float:right;
+    line-height: 26px;
+}
+
+.search .txt{
+    width: 185px;
+    height: 26px;
+    border:0;
+    color: #898989;
+    padding-left: 14px;
+    float: left;
+    background-color: #f1f1f1;
+}
+
+.search .sub {
+    width: 26px;
+    height: 26px;
+    border: 0;
+    float: left;
+    background: url(../img/search.jpg) no-repeat;
+}
+
+#nav ul {
+    overflow: hidden;
+}
+#nav ul li {
+    float: left;
+    width: 124px;
+    height: 59px;
+    vertical-align: middle;
+    line-height: 59px;
+    border-right: solid 1px #4a4a4a;
+    font-size: 14px;
+}
+
+/* 设置main的第一部分 */
+
+.info {
+    width:500px;
+    height: 240px;
+    background: #fff;
+    float: left;   
+}
+
+.info ul li a{
+    background: url(../img/dot_03.jpg) no-repeat 20px center;
+    color:#494949;
+    padding-left: 34px;
+   
+}
+.info ul li span{
+    color:#8f8f8f;
+    padding-right: 28px;
+    float:right;
+}
+
+h2  {
+    color: #1d1d1d;
+    font-size: 18px;
+}
+
+.info h2 {
+    line-height: 30px;
+    padding-left: 20px;
+    color: #1d1d1d;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+
+}
+
+.intro {
+    width:240px;
+    height:240px;
+    float: left;
+    background: #f1f1f1;
+    color: black;
+}
+
+.news h2{
+    margin: 32px 0 33px 24px;
+}
+
+.content1 {
+    padding-left: 24px; 
+}
+
+.intro b span{
+    font-size: 14px;
+}
+
+.content1 a {
+    color:#898989;
+    display: block;
+    padding-top: 15px;
+    padding-right: 25px; 
+    font-size: 12px;
+}
+
+.career {
+    width:260px;
+    height: 240px;
+    float: left;
+    color: black;
+    background:#fbfbfb url(../img/plant.jpg) no-repeat 169px 125px ;
+}
+
+.career h2{
+    margin-bottom: 22px;
+}
+
+.career p {
+    display: block;
+    width: 180px;
+    padding-left: 25px;
+    color: #4a4a4a;
+}
+
+.career a {
+    display: block;
+    width: 65px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    background-color: #b0b0b0;
+    margin: 36px 0 0 25px;
+}
+/* 设置main第二部分 */
+.titleMarket h2 {margin: 32px 0 33px 24px;}
+
+.titleMarket {
+    width: 1000px;
+    height: 65px;
+    background: #fff;
+    color: black;
+}
+.showcase {
+    overflow: hidden;
+}
+.showcase dl dt a{
+    color: black;
+}
+
+.showcase dl{
+    width: 210px;
+    float: left;
+    padding: 0 20px;
+}
+
+/* 设定f_nav */
+.f_nav{background: #e5e5e5}
+.f_nav h2 {
+  
+    color: #616161;
+    border-bottom:#c1c1c1 solid 1px;
+    margin-left: 20px; 
+    
+    padding-left: 12px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.f_nav_l {
+    width: 500px;
+    height: 250px;
+   
+    float: left;
+}
+
+.f_nav_l ul,.f_nav_c ul{
+    margin-top: 20px;
+    margin-left: 25px;
+    float: left;
+    
+}
+
+.f_nav_l .mid {
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    float: left;
+    
+}
+
+
+.f_nav_l ul li,.f_nav_c ul li{
+    background: url(../img/arrow_03.jpg) no-repeat left center;
+    padding-left: 10px;
+}
+
+.f_nav_l h2 {
+    margin-right: 50px; 
+}
+
+
+
+.f_nav_c {
+    width: 200px;
+    height: 250px;
+   
+    float: left;
+}
+
+.f_nav_c h2 {
+    margin-right: 30px; 
+}
+
+
+.f_nav_r {
+    width: 300px;
+    height: 250px;
+    background: url(../img/map.jpg) no-repeat 50px 80px;
+    float: left;
+}
+
+.f_nav_r h2 {
+    margin-right: 20px; 
+}
+
+.copyright div{padding-left: 20px}
+
+.copyright div a {
+    display: inline-block;
+    color: #8f8f8f;
+    padding-top: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.copyright div p {
+    display: inline-block;
+    color: #8f8f8f;
+    padding-top: 25px;
+    padding-right: 5px;
+    padding-left: 60px;
+}
+.copyright div p a{
+    padding: 0 2px;
+    margin: 0;
+}

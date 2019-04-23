@@ -1,0 +1,131 @@
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+header{
+    height: 0.44rem;
+    background: #0dc441;
+    display: flex;
+    align-items: center;
+}
+
+#menu {
+    padding-left: 0.15rem;
+}
+
+#menu a {
+    color: #fff;
+}
+
+#func {
+    display: flex;
+    line-height: .24rem;
+    margin:0 auto;
+    text-align: center;
+    padding-right: 0.32rem;
+}
+#func a{
+    display: block;
+    width: 0.5875rem;
+    height: .24rem;
+    background:rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+#func a:focus,#func a:hover{
+    background:rgba(255, 255, 255, 0.5);
+}
+
+#func a:first-child{
+    border-radius: .12rem 0 0 0.12rem;
+}
+
+#func a:last-child{
+    border-radius: 0 .12rem .12rem 0;
+}
+
+#scrollBarTop ul{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+
+#scrollBarTop ul li {
+    text-align: center;
+    display: block;
+    width: 33.3%;
+    height: .355rem;
+    flex:none;
+}
+
+#scrollBarTop ul li a{
+    font-size: 0.14rem;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: .355rem;
+    line-height: .355rem;
+    color: #666;
+}
+
+#scrollBarTop ul li {
+    border-bottom: #e5e5e5 0.01rem solid;
+}
+
+#scrollBarTop ul li:focus,#scrollBarTop ul li:hover {
+    border-bottom: #0dc441 0.04rem solid;
+    box-sizing: border-box;
+}
+
+#scrollBarTop ul li:focus a,#scrollBarTop ul li:hover a{
+    color:#0dc441;
+}
+
+
+#bottomBar {
+    padding-left: 0.15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: .44rem;
+    border-top: 0.01rem solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+#bottomBar li a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#bottomBar li a{
+    color: #d6d6d6;
+}
+
+#bottomBar li a:focus,#bottomBar li a:hover{
+    color:#0dc441;
+}
+
+#bottomBar li:nth-child(3) a i{
+    font-size: 0.25rem;
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 0.02rem solid #e5e5e5;
+    border-radius: 50%;
+    line-height: 0.45rem;
+    background: #fff;
+    z-index: 1;
+    margin-top: -0.075rem;
+    box-sizing: border-box;
+}
+

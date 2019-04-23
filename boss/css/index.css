@@ -1,0 +1,263 @@
+#navMenu li:nth-child(1) a{
+    color:#53cac3;
+}
+
+/* banner布局 */
+
+#banner {
+    min-width: 1170px;
+    height: 389px;
+    background: url(../img/banner.jpg) no-repeat center;
+}
+
+#bannerInner{
+    width: 1170px;
+    height: 389px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+#bannerInner h2{
+    margin-top: 106px;
+    font-size: 34px;
+    color: white;
+    line-height: 34px;
+}
+
+#bannerInner a{
+    display: inline-block;
+    width: 187px;
+    height: 44px;
+    background: #53cac3;
+    color:white;
+    border-radius: 22px;
+    font-size: 20px;
+    line-height: 44px;
+    margin-top: 50px;
+}
+
+/* showcase布局 */
+.main{
+    padding-top: 374px;
+    position: relative;
+}
+
+.showCase {
+    width: 1170px;
+    height: 436px;
+    margin: 0 auto;
+    background: #fff; 
+    position: absolute;
+    top:-62px;
+    left: 0;
+    right: 0;
+    
+}
+
+.showCaseBorder{
+    border-right: 1px solid #ededed;
+}
+
+.showCase li{
+    margin-top: 44px ;
+    width: 284px;
+    padding: 0 52px;
+    border-left: 1px solid #fff;
+    float: left;
+}
+
+.topBar {
+    overflow: hidden;
+    
+    margin-bottom: 45px;
+}
+
+.topBar i{
+    font-size: 16px;
+    display: inline-block;
+    height: 20px;
+    border-left: 3px solid #53cac3;
+    text-indent: 9px;
+}
+
+.topBar button{
+    float: right;
+    background: #fff;
+    border:1px solid #bebebe;
+    width: 49px;
+    height: 20px;
+    color: #8c8c8c;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 20px ;
+    cursor: pointer;
+}
+
+.topBar button:hover{
+    color:#fff;
+    background-color: #53cac3;
+    border:none;
+}
+
+.showCase li p{
+    margin-top: 38px ;
+    margin-bottom: 18px;
+}
+
+.showCase li p a{   
+    color:#000;
+    font-size: 18px;
+
+}
+
+/* info布局 */
+
+.info {
+    width: 1170px;
+    background: #fff;
+    padding-top: 53px;
+    margin:16px auto 0 auto;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.info li {
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #ededed;
+}
+
+.info li i {
+    display: block;
+    width: 284px;
+    height: 156px;
+    float: left;
+    position: relative;
+}
+
+.info li i button{
+    width: 59px;
+    height: 20px;
+    background: #53cac3;
+    color:white;
+    border:none;
+    font-size: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: 11px;
+    left: -4px;
+    cursor: pointer;
+}
+
+
+#img1 {
+    background: url(../img/img01.jpg)  no-repeat;  
+}
+
+#img2 {
+    background: url(../img/img02.jpg)  no-repeat;  
+}
+
+#img3 {
+    background: url(../img/img03.jpg)  no-repeat;  
+}
+
+
+.infoWrap {
+    margin-left: 30px;
+    width: 700px;
+    float: left;
+}
+
+.infoWrap h2 a{
+    font-size: 16px;
+    color: #000;
+}
+
+.infoWrap p {
+    margin-top: 15px;
+   line-height: 26px;
+}
+
+.infoWrap>a {
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 19px;
+}
+
+.infoWrap p b {
+    padding-left: 20px;
+    padding-right: 43px;
+}
+
+.infoWrap p span {
+    background: url(../img/icon3.jpg) no-repeat ;
+    background-position: 0 3px;
+    padding-left: 20px;
+}
+
+
+/* 新闻动态布局 */
+
+.news {
+    width: 1170px;
+    margin: 17px auto 30px auto;
+    background: #fff;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.news h2 {
+    margin-top: 26px;
+    margin-left: 53px;
+}
+
+.news h2 a{
+    color: #53cac3;
+    font-size: 18px;
+    padding-left: 5px;
+    display: inline-block;
+    border-left: 3px solid #53cac3;
+}
+
+.newsWrap ul {
+    float: left;
+}
+
+.newsWrap ul li{
+    margin-left: 48px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    padding-top: 13px;
+    border-bottom: 1px dashed #e5e5e5;
+}
+
+
+.newsWrap ul li img {
+    display: block;
+    float: left;
+}
+
+.newsPack {
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.newsPack a{
+    display: block;
+}
+
+.newsPack p {
+    margin-top: 8px;
+    width: 483px;
+}
+
+#ad{
+    display: block;
+    float: right;
+    margin-right: 46px;
+}

@@ -1,0 +1,74 @@
+#title {
+    line-height: .24rem;
+    margin:0 auto;
+    text-align: center;
+    padding-right: 0.32rem;
+    color: #fff;
+    font-size: 0.16rem;
+}
+
+body{
+    display: block;
+    height:100%;
+}
+
+
+main {
+    height: calc(100vh - .88rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-top: 0.05rem solid #f1f1f1;
+    border-bottom: 0.05rem solid #f1f1f1;
+    box-sizing: border-box;
+}
+
+.info{
+    height: 0.65rem;
+}
+
+.info img{
+    display:block;
+    box-sizing: border-box;
+    width:.465rem;
+    height: .465rem;
+    border-radius: 50%;
+    border: .01rem solid #e5e5e5;
+    margin-top: .105rem;
+    margin-left: .115rem;
+    float: left;
+}
+
+.info div{
+    display: block;
+    /* height: 0.6rem; */
+    margin-top: 0.105rem;
+    margin-left: 0.08rem;
+    float: left;
+}
+
+.info div b{
+    display: block;
+}
+
+.info div i{
+    display: block;
+    color: #aaa;
+    
+}
+
+#scrollBarTop{
+    height: 0.25rem;
+}
+
+#scrollBarTop ul li {
+    height: 0.25rem;
+}
+
+#scrollBarTop ul li a{
+    height: 0.25rem;
+    line-height: .25rem;   
+}
+
+main img{
+    width: 50%;
+}

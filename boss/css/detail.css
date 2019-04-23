@@ -1,0 +1,398 @@
+#navMenu li:nth-child(2) a{
+    color:#53cac3;
+}
+
+.main{overflow: hidden;}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.width889{
+    width: 889px;
+}
+
+ 
+/* Cat布局 */
+
+#chat {
+    width: 263px;
+    height: 693px;
+    border:1px solid #dcdcdc;
+    background: #fff;
+    float: left;
+}
+
+
+/* Job布局 */
+
+#job {
+    float: left;
+    margin-left: 13px;
+}
+
+#jobSearch{
+    border:1px solid #e0e0e0;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+#searchBar{
+    width: 778px;
+    height: 55px;
+    background: #fff;
+    border: none;
+    font-style: italic;
+    color: #d6d6d6;   
+    text-indent: 17px;      
+} 
+
+#searchButton {
+    margin: 0;
+    width:104px;
+    height: 45px;
+    background: #53cac3;
+    color: #fff;
+    margin-right: 3px;
+    border: none;
+    /* border-top: 6px solid #fff; */
+}
+
+
+/* 左侧聊天栏布局 */
+#chat{
+    margin-bottom: 20px;
+}
+
+.chatTop {
+    width: 263px;
+    height: 43px;
+    background: #fafafa;
+}
+
+.chatTop button {
+    cursor: pointer;
+}
+
+.chatTop button:first-child{
+    display: inline-block;
+    width: 129px;
+    height: 23px;
+    margin-top: 10px;
+    text-align: center;
+    color: #52a4e9;
+    border:none;
+    border-right: 1px solid #e3e3e3;
+    background:url(../img/icon4.jpg) no-repeat;
+    background-position: 20px 0;
+    text-indent: 25px;
+}
+
+.chatTop button:last-child{
+    display: inline-block;
+    width: 130px;
+    height: 23px;
+    margin-top: 10px;
+    text-align: center;
+    color: #68c948;
+    border:none;
+    background:url(../img/icon5.jpg) no-repeat;
+    background-position: 20px 0;
+    text-indent: 25px;
+}
+
+#chat p{
+    color: #888888;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.infoBox {
+    width: 240px;
+    height: 92px;
+    background: #fafafa;
+    border-radius: 3px;
+    border:1px solid #f4f4f4;
+    margin: 0 auto;
+}
+
+.infoBox h2{
+    color: #53cac3;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.infoBox h2 span{
+    color: #e85253;
+    margin-left: -4px;
+    line-height: 35px;
+}
+
+.infoBox b {
+    display: block;
+}
+
+.infoBox b span{
+    padding:0 10px;
+    border-right: 1px solid #e9e7e9;
+}
+
+.infoBox b span:last-child{
+    border:none;
+}
+
+#chat img{
+    margin-top: 10px;
+    margin-bottom: 72px;
+}
+
+#chatBoxText{
+    display: block;
+    width: 240px;
+    height: 88px;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+    margin: 0 auto;
+    color: #a9a9a9;
+    text-indent: 5px;
+    line-height: 30px;
+    outline: none;
+    resize: none;
+}
+
+#chatBoxSubmit{
+    display: block;
+    width: 242px;
+    height: 40px;
+    background: #fb7200;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin:20px auto 0 auto;
+    cursor: pointer;
+}
+
+/* 右侧job信息布局 */
+
+#jobTitle {
+    height: 125px;
+    border: 1px solid #dcdcdc; 
+    background: #fff;
+    border-top: none;
+    overflow: hidden;
+}
+
+#jobTitle h2{
+    color: #000;
+    font-size: 22px;
+    line-height:35px;
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+}
+
+#jobTitle h2 span {
+    color: #e85253;
+    font-weight: bold;
+    margin-left: -4px;
+    
+}
+
+#jobTitle img {
+    display: block;
+    float: right;
+}
+
+.infoLeft{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.infoLeft span{
+    padding:0 15px;
+    color: #666;
+    border-right: 1px solid #eae7ea;
+}
+
+.infoLeft span:last-child{
+    border: none;
+}
+
+.infoRight{
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+}
+
+.infoRight span{
+    margin-right: 10px;
+}
+.infoRight a {
+    background: url(../img/icon_share.jpg) no-repeat;
+    padding-left: 17px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+/* boss信息布局 */
+
+#topBar {
+    height: 125px;
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    margin-top: 15px;
+}
+
+.employer img{
+    display: inline-block;
+    margin-top:16px;
+    margin-left: 16px;
+    float: left;
+}
+
+.employer div {
+    display: inline-block;
+   /*  float: left; */
+    width: 150px;
+    margin-top: 17px;
+    margin-left: 15px;
+}
+
+.employer div b {
+    font-size: 20px;
+    color: #000;
+}
+
+.employer div b span {
+    display: inline-block;
+    color: #53cac3;
+    border: 1px solid #53cac3;
+    border-radius: 4px;
+    width: 58px;
+    height: 18px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.employer div i{
+    display: block;
+    margin-top: 10px;
+}
+
+.employer div em{
+    display: block;
+    background: #6bd52c;
+    width: 42px;
+    height: 24px;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.employer button{
+    width: 120px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    border: 1px solid #fb7200;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#apply{
+    background-color: #fff;
+    color: #fb7200;
+    float: right;
+    margin-top: 35px;
+    margin-right: 14px;
+}
+
+#chatNow{
+    background-color: #fb7200;
+    color: #fff;
+    float: right;
+    margin-top: 35px;
+    margin-right: 25px;
+}
+
+/* 职位细节布局 */
+
+#jobDetail {
+    background: #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+}
+
+#jobDetail h2{
+    border-left: 7px solid #53cac3;
+    text-indent: 10px;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+#jobDetail p{
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    line-height: 26px;
+}
+
+.tags {
+    margin-left: 40px;
+    overflow: hidden;
+}
+
+.tags i {
+    display: inline-block;
+    padding:0 10px;
+    border: 1px solid #53cac3;
+    line-height: 28px;
+    border-radius: 3px;
+    margin-right: 14px;
+    color: #53cac3;
+}
+
+#jobDetail h3 {
+    margin-left: 40px;
+    margin-bottom: 12px;
+    font-size: 8px;
+    color: #999;
+    text-indent:23px;
+}
+
+#company {
+    background: url(../img/iconTeam.jpg) no-repeat;
+}
+
+#webAddress {
+    background: url(../img/iconWebAddress.jpg) no-repeat;
+}
+
+#location {
+    background: url(../img/iconLocation.jpg) no-repeat;
+}
+
+
+#bottomBar {
+    width: 805px;
+    height: 125px;
+    border: 1px dashed #eaeaea;
+    background: #fafafa;
+    border-radius: 4px;
+    margin: 35px auto;
+}
+
+#bottomBar button:last-child{
+    background: #fafafa;
+}
+
+

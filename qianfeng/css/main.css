@@ -1,0 +1,128 @@
+@charset    "utf-8";
+/* 网页格式初始化 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    font:12px "微软雅黑",Arial;
+    color:#444;
+}
+
+h1,h2,h3,b,strong{
+    font-weight: normal;
+}
+i,em{
+    font-style: normal;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* 设置导航条 */
+nav {
+    width: 1000px;
+    height: 62px;
+    margin: 0 auto;
+    background: #232323;
+}
+.logo {
+    display: inline-block;
+    float: left; 
+}
+
+.logo a{
+    display: inline-block;
+    width: 157px;
+    height: 37px;
+    text-indent: -999px;
+    background: url(../img/logo.jpg) no-repeat;
+    margin:13px 0 0 11px;
+}
+
+div.nav{overflow: hidden;}
+nav ul {
+    float: left;
+    height: 62px;
+    line-height: 62px;
+    margin-left: 87px;
+}
+
+nav ul li{
+    float: left;
+    padding: 0 15px 0 15px;
+    font-size: 14px;
+    background: url(../img/navbg.jpg) no-repeat right;
+}
+
+nav ul li:hover{
+    background: #f15a23;
+}
+
+/* 设置banner */
+.banner {
+    width: 1000px;
+    height: 420px;
+    margin: 0 auto;
+    background: url(../img/banner.jpg) no-repeat ;
+}
+
+/* 设置service */
+.service {
+    width: 1000px;
+    height: 350px;
+    margin:0 auto;
+    overflow: hidden;
+    background: #f5f5f5;
+    border-top: solid 1px #a8a8a8;
+}
+.service ul {
+    overflow: hidden;
+}
+
+.service ul li{
+    float: left;
+    width: 248.5px;
+    height: 290px;
+    border-right: solid 1px #e1e2f6;
+    border-left:solid 1px #fff;
+    margin-top: 35px;
+}
+
+.service ul li img {
+    display: block;
+    margin: 20px auto 0 auto;
+    
+}
+
+.service ul li h2{
+    text-align: center;
+    font-size: 22px; 
+    line-height: 52px;
+}
+
+.service ul li b{
+    display: block;
+    color: #4b708c;
+    text-align: center;
+    line-height: 18px;
+}
+
+.service ul li p{
+    margin-top: 15px;
+    text-align: center;
+    color:#b9bdd8;
+}
+
+/* 设置信息栏 */
+
+.info {
+    width: 1000px;
+    height: 310px;
+    margin:0 auto;
+}
+

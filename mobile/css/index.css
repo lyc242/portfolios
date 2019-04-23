@@ -1,0 +1,104 @@
+/* 设置头部BANNER以及搜索栏 */
+
+header {
+    background: linear-gradient(to right,#ffd265,#ffbf2d );
+}
+
+#search {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#search input{
+    width: 3.55rem;
+    height: .45rem;
+    background: white;
+    border: none;
+    border-radius: .04rem;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+}
+#search input::placeholder{
+    color:#ccc;
+    background: url(../img/mag.jpg) no-repeat .1rem;
+    background-size: contain;
+    text-indent: .1rem;
+}
+
+.topBar {
+    width: 100%;
+    margin-top: .3rem;
+}
+
+.topBarLeft{
+    padding: 0 .1rem;
+}
+
+.topBarRight {
+    padding-right: 0.1rem;
+}
+
+.topBarLeft img{
+    height: .14rem;
+}
+
+.topBarRight img{
+    width: .25rem;
+}
+
+#search1 {
+    display: block;
+}
+
+
+/* 页面主题部分布局 */
+
+/* 服务区域 */
+
+#service>img {
+    width: 95%;
+    margin: .05rem auto 0 auto;
+}
+
+#functions img{
+    width: .44rem;
+}
+
+#functions li {
+    width: 20%;
+    margin-top: .2rem;
+    margin-bottom: .1rem;
+}
+
+/* 优惠专区 */
+
+h2 {
+    font-size: .22rem;
+    margin: .2rem auto .1rem .1rem;
+}
+
+.ads {
+    margin: 0 .1rem;
+}
+.youhui img{
+    width: 1.75rem;
+}
+
+footer ul li:nth-child(4) i{
+    width:.25rem;
+    height: .25rem;
+    background: url(../img/wode.jpg) no-repeat;
+    background-size: 100%
+}
+
+footer ul li:nth-child(1) i{
+    width:.25rem;
+    height: .25rem;
+    background: url(../img/homeColored.jpg) no-repeat;
+    background-size: 100%
+}
+
+

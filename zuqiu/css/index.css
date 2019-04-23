@@ -1,0 +1,27 @@
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex:1;
+    overflow-x: auto;
+    
+}
+main figure {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 0.025rem);
+    border:solid .01rem #e5e5e5;
+    box-sizing: border-box;
+    margin-top: 0.05rem;
+}
+
+main figure img{
+    width: 100%;
+}
+
+figcaption{
+    padding-top: 0.08rem;
+    padding-bottom: 0.08rem;
+    text-indent: 0.1rem;
+}

@@ -1,0 +1,164 @@
+/* 设置头部BANNER以及搜索栏 */
+
+header {
+background: url(../img/background.jpg) repeat;
+background-size: 2.15rem;
+}
+
+#search {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.topBar {
+    width: 100%;
+    margin-top: .3rem;
+}
+
+
+.topBarRight {
+    padding-right: 0.1rem;    
+}
+.topBarRight img:first-child {
+    margin-right: .2rem;
+}
+
+.topBarRight img{
+    width: .25rem;
+}
+
+.avatar img{
+    width: .55rem;
+    margin-right: .1rem;
+}
+.avatar {
+    margin: .1rem;
+    margin-bottom: .2rem;
+    font-size: .15rem;
+}
+
+
+
+/* 页面主题部分布局 */
+
+/* 功能 */
+
+#gongneng {
+    padding-bottom: .2rem;
+    margin-bottom: .1rem;
+}
+
+#gongneng ul li{
+    width: 25%;
+    margin-top: .2rem;
+}
+
+#gongneng ul {
+    justify-content: flex-start;
+}
+
+#gongneng ul li a p{
+    font-size: .12rem;
+    margin-top: .05rem;
+}
+#gongneng ul li a img{
+    width: .25rem;
+}
+
+
+/* 资产 */
+
+.zichan {
+    margin-top: .1rem;
+    padding-bottom: .27rem;
+}
+
+.zichan li a img {
+    width: .25rem;
+}
+
+.zichan li {
+    width: 25%;
+}
+
+.zichan li:nth-child(1){
+    margin-top: -.15rem;;
+}
+.zichan li:nth-child(2){
+    margin-top: -.15rem;;
+}
+
+
+
+/* 我的服务 */
+
+.myService {
+    margin-top: .1rem;
+    padding-bottom: .05rem;
+}
+
+.myService img{
+    width: .25rem;
+    
+}
+.services li{
+    margin: .15rem;
+}
+
+.more {
+    margin-top: .1rem;
+}
+
+.dim {
+    color: #999;
+}
+
+main {
+    background: #f4f4f4;
+}
+
+.whiteBG {
+    background: #fff;
+}
+
+h3 {
+  line-height: .45rem;  
+  margin-left: .15rem;
+  color: #666;
+  border-bottom: .01rem solid #e4e4e4;
+}
+
+footer {
+    background: #f8f8f8;
+}
+footer ul li:nth-child(4) i{
+    width:.25rem;
+    height: .25rem;
+    background: url(../img/wodeColored.jpg) no-repeat;
+    background-size: 100%
+}
+
+footer ul li:nth-child(3) i{
+    width:.25rem;
+    height: .25rem;
+    background: url(../img/order.jpg) no-repeat;
+    background-size: 100%
+}
+
+footer ul li:nth-child(2) i{
+    width:.25rem;
+    height: .25rem;
+    background: url(../img/shangou.jpg) no-repeat;
+    background-size: 100%
+}
+
+footer ul li:nth-child(1) i{
+    width:.25rem;
+    height: .25rem;
+    background: url(../img/home.jpg) no-repeat;
+    background-size: 100%
+}

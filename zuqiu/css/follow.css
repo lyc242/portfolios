@@ -1,0 +1,74 @@
+#func a:last-child{
+    background: rgba(255, 255, 255, 0.5)
+}
+
+body{
+    display: block;
+    height:100%;
+}
+
+main {
+    height: calc(100vh - .88rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.info{
+    height: 0.705rem;
+}
+
+.info img{
+    display:block;
+    box-sizing: border-box;
+    width:.465rem;
+    height: .465rem;
+    border-radius: 50%;
+    border: .01rem solid #e5e5e5;
+    margin-top: .105rem;
+    margin-left: .115rem;
+    float: left;
+}
+
+.info div{
+    display: block;
+    height: 0.6rem;
+    margin-top: 0.105rem;
+    margin-left: 0.08rem;
+    float: left;
+}
+
+.info div b{
+    display: block;
+}
+
+.info div i{
+    display: block;
+    color: #aaa;
+    
+}
+
+.info span{
+    float: right;
+    display: block;
+    margin-top: 0.105rem;
+    margin-right: 0.103rem;
+}
+
+.info span,.info span a{
+    color: #ccc;
+}
+
+figure img{
+    width: 100%;
+    border-top: 0.01rem solid #e5e5e5;
+}
+
+figcaption {
+    height: 0.33rem;
+    line-height: 0.33rem;
+    border-bottom: 0.01rem solid #e5e5e5;
+}
+
+#bottomInfo{
+    border-top: 0.05rem solid #f1f1f1;
+}

@@ -1,0 +1,102 @@
+#title {
+    line-height: .24rem;
+    margin:0 auto;
+    text-align: center;
+    padding-right: 0.32rem;
+    color: #fff;
+    font-size: 0.16rem;
+}
+
+body{
+    display: block;
+    height:100%;
+}
+
+#search {
+    height: 0.33rem;
+    border-bottom : 0.01rem solid #f1f1f1;
+    margin-top: 0.04rem;
+    margin-left: 0.05rem;
+}
+
+#searchButton{
+    width: 0.455rem;
+    height: 0.23rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.23rem;
+    background: #0dc441;
+    border-radius: 0.03rem;
+    border: none;
+    margin-left: 0.02rem;
+}
+
+#searchText {
+    width: 2.575rem;
+    height: 0.24rem;
+    border: 0.01rem solid #aaa;
+    border-radius: 0.03rem; 
+    text-indent: 0.06rem;
+}
+
+main {
+    height: calc(100vh - 1.26rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-top: 0.05rem solid #f1f1f1;
+    border-bottom: 0.05rem solid #f1f1f1;
+    box-sizing: border-box;
+}
+
+.info{
+    height: 0.705rem;
+    border-bottom: 0.01rem solid #f1f1f1;
+}
+
+.info img{
+    display:block;
+    box-sizing: border-box;
+    width:.465rem;
+    height: .465rem;
+    border-radius: 50%;
+    border: .01rem solid #e5e5e5;
+    margin-top: .105rem;
+    margin-left: .115rem;
+    float: left;
+}
+
+.info div{
+    display: block;
+    height: 0.6rem;
+    margin-top: 0.105rem;
+    margin-left: 0.08rem;
+    float: left;
+}
+
+.info div b{
+    display: block;
+}
+
+.info div i{
+    display: block;
+    color: #aaa;
+    
+}
+
+.info a {
+    width: 0.325rem;
+    height: 0.175rem;
+    line-height: 0.175rem;
+    color: #fff;
+    display: block;
+    float: right;
+    text-align: center;
+    background: #e5e5e5;
+    border-radius: 0.02rem;
+    margin-top: 0.16rem;
+    margin-right: 0.125rem;
+}
+
+.info:first-child a{
+    background: #0dc441;
+}

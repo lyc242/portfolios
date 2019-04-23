@@ -1,0 +1,135 @@
+
+/* 设置各种主题颜色 */
+
+.flexBtwn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexStart {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.flexY {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* 通用弹性页面布局 */
+
+html {
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+main{
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+footer {
+    height: 0.5rem;
+    background: -webkit-repeating-radial-gradient(right,#f9ebee 25%, #f1ecea 25%);
+}
+
+footer ul{
+    margin-top: .1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li{
+    align-self: center;    
+}
+
+footer li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    border:none;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.4);   
+    font-size: .14rem;
+}
+.inputBar {
+    background: none;
+    border-bottom: .01rem solid rgba(255, 255, 255, 1);
+    height: .45rem;
+}
+
+.dim {
+    color: #bbb;
+}
+
+#topBar {
+    text-align: center;
+    padding-top: .3rem;
+}
+
+#topIconFont{
+    display: inline-block;
+    float: left;
+    font-size: .22rem;
+    font-weight: bold;
+    margin-left: .08rem;
+}
+
+#topBar h2{
+    display: inline-block;
+    text-indent: -.30rem;
+}
+
+h2 {
+    font-size: .22rem;
+    margin: .2rem auto .1rem .1rem;
+}
+
+
+footer ul li:nth-child(4) i{
+    width:.25rem;
+    height: .25rem;
+    background: url(../img/wodeColored.jpg) no-repeat;
+    background-size: 100%
+}
+
+footer ul li:nth-child(3) i{
+    width:.25rem;
+    height: .25rem;
+    background: url(../img/order.jpg) no-repeat;
+    background-size: 100%
+}
+
+footer ul li:nth-child(2) i{
+    width:.25rem;
+    height: .25rem;
+    background: url(../img/shangou.jpg) no-repeat;
+    background-size: 100%
+}
+
+footer ul li:nth-child(1) i{
+    width:.25rem;
+    height: .25rem;
+    background: url(../img/home.jpg) no-repeat;
+    background-size: 100%
+}

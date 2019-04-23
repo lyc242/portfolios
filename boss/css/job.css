@@ -1,0 +1,204 @@
+#navMenu li:nth-child(2) a{
+    color:#53cac3;
+}
+
+.main{overflow: hidden;}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.width889{
+    width: 889px;
+}
+
+/* banner布局 */
+#banner{
+    margin-bottom:15px;
+}
+
+/* Cat布局 */
+
+#category {
+    width: 263px;
+    border:1px solid #dcdcdc;
+    background: #fff;
+    float: left;
+}
+
+#category ul {
+    margin-top: -12px;
+    margin-bottom: 9px;
+}
+
+#category ul li h2 a{
+    font-size: 18px;
+    color: #53cac3;
+}
+
+#category ul li h2 {
+    margin-top: 22px;
+    margin-left: 14px;
+}
+
+#category ul li p{
+    margin-left: 14px;
+    width: 200px;
+}
+
+#category ul li p a{
+    padding-right: 25px;
+    line-height: 32px;;
+}
+
+/* Job布局 */
+
+#job {
+    float: left;
+    margin-left: 13px;
+}
+
+#jobSearch{
+    border:1px solid #e0e0e0;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+#searchBar{
+     width: 778px;
+    height: 55px;
+    background: #fff;
+    border: none;
+    font-style: italic;
+    color: #d6d6d6;   
+    text-indent: 17px;      
+} 
+
+#searchButton {
+    margin: 0;
+    width:104px;
+    height: 45px;
+    background: #53cac3;
+    color: #fff;
+    margin-right: 3px;
+    border: none;
+    /* border-top: 6px solid #fff; */
+}
+
+#joblist li{
+    height: 127px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:1px solid #e0e0e0;
+}
+
+.listTop{
+    overflow: hidden;
+    margin-bottom: 9px;
+}
+
+.listTop h2{
+    float: left;
+    margin-top: 20px;
+}
+
+.listTop h2 span{
+    color: #e85253;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.listTop {}
+
+.listTop i {
+    width: 50px;
+    display: block;
+    float: right;
+    margin-top: 20px;
+    background: url(../img/avatar1.jpg) no-repeat;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+.infoLeft{
+    display: block;
+    float: left;
+}
+
+.infoRight{
+    display: block;
+    float: right;
+}
+
+.infoRight em{
+    display: block;
+    float: right;
+    width: 30px;
+    height: 21px;
+    line-height: 21px;
+    background: #6bd52c;
+    text-align: center;
+    color: #fff;
+    margin-top: -5px;
+}
+
+#joblist li p {
+    overflow: hidden;
+}
+
+#joblist li p b span{
+    padding: 7px;
+    border-right: solid 2px #ececf2; 
+}
+
+#joblist li p b span:last-child{
+    border:none;
+}
+
+#joblist li p .infoRight span:nth-child(2){
+    border:none;
+}
+
+/* QR布局 */
+
+#qrBar {
+    height: 110px;
+    border:1px solid #e0e0e0;
+    background:#fdf9e5; 
+    margin-bottom: 25px;
+}
+
+#qrBar h2 {
+    float: left;
+    height: 110px;
+    line-height: 110px;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #53cac3;
+}
+
+#qrBar h2 span{
+    color:#f89a28;
+}
+
+#qrBar img {
+    display: block;
+    float: right;
+    border:3px solid #fff;
+    margin-top: 15px;
+    margin-right: 14px;
+}
+
+#qrBar a{
+    margin-top: 35px;
+    margin-right: 10px;
+    display: block;
+    color:#53cac3;
+    text-align: right;
+    float: right;
+
+}
